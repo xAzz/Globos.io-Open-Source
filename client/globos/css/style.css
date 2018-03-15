@@ -1,0 +1,403 @@
+body{
+	
+	background-color:#0f1010;
+	overflow: hidden;
+
+}
+
+.wrapper{
+	width:1300px;
+	margin:100px auto;
+	position: absolute;
+}
+
+hr{
+	border-color:rgba(255,255,255,0.3);
+}
+
+div.box{
+	border-radius:10px;
+	overflow:hidden;
+	color:white;
+	background-color:rgba(105,105,105,0.4);
+	border:1px solid rgba(105,105,105,0.6);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.box .header{
+	text-align:center;
+	background-color:rgba(255,255,255,0.1);
+	padding:12px;
+}
+
+div.box .start{
+	padding:25px;
+	padding-bottom:10px;
+}
+
+div.box .content{
+	padding:12px;
+}
+
+button{
+	opacity:1;
+}
+
+button:hover{
+	opacity:0.75;
+}
+
+.skins{
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	margin-bottom:15px;
+	width:100%;
+	padding:15px;
+	border:1;
+}
+
+	
+
+.switch{
+	background-color:none;
+	color:white;
+}
+
+.switch:hover{
+	background-color:rgba(0,0,0,0.3) !important;
+	color:white;
+}
+
+button.login{
+	border-radius:7px;
+	margin-bottom:15px;
+	width:100%;
+	background-color:#1e7124;
+	padding:17px;
+	border:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button.register{
+	border-radius:7px;
+	margin-bottom:15px;
+	width:100%;
+	background-color:#35839c;
+	padding:17px;
+	border:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button.play{
+	border-radius:7px;
+	margin-bottom:15px;
+	width:100%;
+	background-color:#1e7124;
+	padding:17px;
+	border:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button.shop{
+	border-radius:7px;
+	margin-bottom:15px;
+	width:100%;
+	background-color:#e19b14;
+	padding:17px;
+	border:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button.spectate{
+	border-radius:7px;
+	margin-bottom:15px;
+	width:100%;
+	background-color:#35839c;
+	padding:17px;
+	border:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+button.discord{
+	border-radius:7px;
+	margin-bottom:15px;
+	width:100%;
+	background-color:#7514e1;
+	padding:17px;
+	border:0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=text],
+input[type=password] {
+    box-sizing : border-box;
+	width:100%;
+	padding:15px;
+	color:grey;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.form-input{
+	border:0;
+	border-radius:6px;
+	margin-bottom:5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.server-list{
+	background-color:rgba(0,0,0,0.3);
+	border-radius:4px;
+	padding:5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.server{
+	margin-bottom:5px;
+	background-color:rgba(255,255,255,0.05);
+	cursor:pointer;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.nickname{
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border:1;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.server:hover{
+	background-color:rgba(255,255,255,0.1);
+}
+
+div.server:after{
+	content: " ";
+	display:block;
+	clear:both;
+}
+
+div.server-name{
+	float:left;
+	width:75%;
+	padding:8px 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div.server-players{
+	float:left;
+	width:25%;
+	padding:8px 10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 1300px){
+	.wrapper{
+		width:97%;
+		margin:200px auto;
+	}
+	
+	.box{
+		margin-bottom:10px;
+	}
+}
+
+ .powerContain {
+     display: none;
+     position: absolute;
+     bottom: 10px;
+     width: 100%;
+     height: 75px;
+     z-index: 1;
+     text-align: center;
+}
+ .power {
+     width: 75px;
+     height: 75px;
+     border-radius: 10px;
+     background-color: white;
+     margin: 0 25%;
+     transition: 0.3s;
+     position: relative;
+}
+ .box_ {
+     bottom: -30px;
+     width: 65px;
+     height: 25px;
+     border-radius: 10px;
+     line-height: 25px;
+     font-size: 12px;
+     bottom: -5;
+     right: 0px;
+     background-color: rgb(0, 126, 255);
+     box-shadow: 1px 1px 3px black;
+     font-family: Ubuntu;
+     position: absolute;
+     text-transform: uppercase;
+     right: 5px;
+}
+ .powers {
+     margin: 0 auto;
+     width: 290px;
+     color: white;
+}
+ .speedy {
+     background-image: url('../assets/img/arrow.png');
+     opacity: 1;
+     background-size: 100%;
+     z-index: 4;
+     top: -25px;
+}
+ .toxic {
+     background-image: url('../assets/img/toxic.png');
+     opacity: 1;
+     background-repeat:no-repeat;
+     background-color: rgb(0, 255, 0);
+     background-size: 100%;
+     z-index: 4;
+     right: 80px;
+     bottom: 100px;
+}
+ .freeze {
+     background: url('../assets/img/arrow.png');
+     opacity: 1;
+     background-size: 100%;
+     z-index: 4;
+}
+ .speedyAMMO {
+     display: none;
+     margin: 0 auto;
+     width: 30px;
+     height: 30px;
+     margin-top: -20px;
+     border-radius: 30px;
+     line-height: 30px;
+     background-color: #ff5200;
+     box-shadow: 1px 1px 3px black;
+     font-family: Ubuntu;
+}
+ .toxicAMMO {
+     display: none;
+     margin: 0 auto;
+     width: 30px;
+     height: 30px;
+     margin-top: -20px;
+     border-radius: 30px;
+     line-height: 30px;
+     background-color: #ff5200;
+     box-shadow: 1px 1px 3px black;
+     font-family: Ubuntu;
+}
+ .freezeAMMO {
+     display: none;
+     margin: 0 auto;
+     width: 30px;
+     height: 30px;
+     margin-top: -20px;
+     border-radius: 30px;
+     line-height: 30px;
+     background-color: #ff5200;
+     box-shadow: 1px 1px 3px black;
+     font-family: Ubuntu;
+}
+
+ #overlays {
+     display:none;
+     position:absolute;
+     left:0;
+     right:0;
+     top:0;
+     bottom:0;
+     z-index:200 
+}
+
+ #canvas {
+     position:absolute;
+     left:0;
+     right:0;
+     top:0;
+     bottom:0;
+     width:100%;
+     height:100%; 
+}
+
+ #chat {
+     position:absolute;
+     bottom:10px;
+     left:10px;
+     width:380px;
+     height:250px;
+     overflow:hidden;
+     z-index:1 
+}
+ .chat-content {
+     border-radius:2px;
+     background-color:hsla(0,0%,10%,0.9);
+     height:250px;
+     border:1px solid hsla(0,0%,100%,.15) 
+}
+ .chat-messages {
+     padding:8px;
+     margin:0;
+     list-style:none;
+     box-sizing:border-box;
+     overflow:hidden;
+     word-wrap:break-word;
+     bottom:30px;
+     line-height:23px;
+     height:222px;
+     overflow-y:visible!important;
+     width:100%;
+     color:#fff;
+     position:absolute;
+     font-size:18px 
+}
+ .chat-item {
+     color:hsla(0,0%,100%,.65);
+     font-size:15px 
+}
+ #chat_textbox {
+     background-color:transparent;
+     padding:5px;
+     outline:none;
+     border:0;
+     bottom:0;
+     border-radius:0 0 0 0;
+     width:100%;
+     color:#fff;
+     position:absolute;
+     font-size:16px;
+     font-family:BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif 
+}
+ #leaderboard-wrapper {
+     z-index:1;
+     position:absolute;
+     top:10px;
+     right:10px;
+     width:250px;
+     overflow:hidden;
+     border:1px solid hsla(0,0%,100%,.15);
+     border-radius:2px;
+     background-color:hsla(0,0%,7%,.6);
+     padding:8px;
+     margin:0;
+     list-style:none;
+     box-sizing:border-box;
+     white-space:nowrap;
+     overflow:hidden;
+     text-overflow:ellipsis;
+     text-align:center 
+}
+ #leaderboard-wrapper h2 {
+     text-align:center;
+     margin:5px auto;
+     font-size:x-large;
+     color:#eee;
+     width:100%;
+     font-weight:bolder;
+     margin-bottom:10px 
+}
+ #leaderboard-detail {
+     padding:0;
+     list-style:none;
+     font-size:medium;
+     color:hsla(0,0%,100%,.8) 
+}

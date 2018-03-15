@@ -1,0 +1,200 @@
+{
+    "skin_1": {
+		"skin_id": 		"1",
+        "skin_name":	"Captain",
+        "skin_url":		"./shop/skins/captain.png",
+        "skin_price":	"0"
+    },
+	"skin_2": {
+		"skin_id": 		"2",
+        "skin_name":	"Ninja",
+        "skin_url":		"./shop/skins/ninja.png",
+        "skin_price":	"0"
+    },
+	"skin_3": {
+		"skin_id": 		"3",
+        "skin_name":	"raid-boss",
+        "skin_url":		"./shop/skins/raid-boss.png",
+        "skin_price":	"0"
+    },
+	"skin_4": {
+		"skin_id": 		"4",
+        "skin_name":	"doge",
+        "skin_url":		"./shop/skins/doge.png",
+        "skin_price":	"2000"
+    },
+	"skin_5": {
+		"skin_id": 		"5",
+        "skin_name":	"carp",
+        "skin_url":		"./shop/skins/carp.png",
+        "skin_price":	"2000"
+    },
+	"skin_6": {
+		"skin_id": 		"6",
+        "skin_name":	"WOLFUS",
+        "skin_url":		"./shop/skins/WOLFUS.png",
+        "skin_price":	"2000"
+    },
+	"skin_7": {
+		"skin_id": 		"7",
+        "skin_name":	"superhero2",
+        "skin_url":		"./shop/skins/superhero2.png",
+        "skin_price":	"8000"
+    },
+	"skin_8": {
+		"skin_id": 		"8",
+        "skin_name":	"superhero",
+        "skin_url":		"./shop/skins/superhero.png",
+        "skin_price":	"8000"
+    },
+	"skin_9": {
+		"skin_id": 		"9",
+        "skin_name":	"princess",
+        "skin_url":		"./shop/skins/princess.png",
+        "skin_price":	"12000"
+    },
+	"skin_10": {
+		"skin_id": 		"10",
+        "skin_name":	"cat-cauldron",
+        "skin_url":		"./shop/skins/cat-cauldron.png",
+        "skin_price":	"13000"
+    },
+	"skin_11": {
+		"skin_id": 		"11",
+        "skin_name":	"cool-agent",
+        "skin_url":		"./shop/skins/cool-agent.png",
+        "skin_price":	"22000"
+    },
+	"skin_12": {
+		"skin_id": 		"12",
+        "skin_name":	"watermelon",
+        "skin_url":		"./shop/skins/watermelon.png",
+        "skin_price":	"22000"
+    },
+	"skin_13": {
+		"skin_id": 		"13",
+        "skin_name":	"wicked-cat",
+        "skin_url":		"./shop/skins/wicked-cat.png",
+        "skin_price":	"22000"
+    },
+	"skin_14": {
+		"skin_id": 		"14",
+        "skin_name":	"werewolf",
+        "skin_url":		"./shop/skins/werewolf.png",
+        "skin_price":	"22000"
+    },
+	"skin_15": {
+		"skin_id": 		"15",
+        "skin_name":	"acorn",
+        "skin_url":		"./shop/skins/acorn.png",
+        "skin_price":	"22000"
+    },
+	"skin_16": {
+		"skin_id": 		"16",
+        "skin_name":	"air-bag",
+        "skin_url":		"./shop/skins/air-bag.png",
+        "skin_price":	"27000"
+    },
+	"skin_17": {
+		"skin_id": 		"17",
+        "skin_name":	"alien-tree",
+        "skin_url":		"./shop/skins/alien-tree.png",
+        "skin_price":	"27000"
+    },
+	"skin_18": {
+		"skin_id": 		"18",
+        "skin_name":	"amber",
+        "skin_url":		"./shop/skins/amber.png",
+        "skin_price":	"27000"
+    },
+	"skin_19": {
+		"skin_id": 		"19",
+        "skin_name":	"arachno-kid",
+        "skin_url":		"./shop/skins/arachno-kid.png",
+        "skin_price":	"27800"
+    },
+	"skin_20": {
+		"skin_id": 		"20",
+        "skin_name":	"aries",
+        "skin_url":		"./shop/skins/aries.png",
+        "skin_price":	"32000"
+    },
+	"skin_21": {
+		"skin_id": 		"21",
+        "skin_name":	"athletic",
+        "skin_url":		"./shop/skins/athletic.png",
+        "skin_price":	"32000"
+    },
+	"skin_22": {
+		"skin_id": 		"22",
+        "skin_name":	"baghdadi",
+        "skin_url":		"./shop/skins/baghdadi.png",
+        "skin_price":	"32000"
+    },
+	"skin_23": {
+		"skin_id": 		"23",
+        "skin_name":	"bad-boy",
+        "skin_url":		"./shop/skins/bad-boy.png",
+        "skin_price":	"32000"
+    },
+	"skin_24": {
+		"skin_id": 		"24",
+        "skin_name":	"basilisk",
+        "skin_url":		"./shop/skins/basilisk.png",
+        "skin_price":	"32000"
+    },
+	"skin_25": {
+		"skin_id": 		"25",
+        "skin_name":	"birthday-lol",
+        "skin_url":		"./shop/skins/birthday-lol.png",
+        "skin_price":	"32000"
+    },
+	"skin_26": {
+		"skin_id": 		"26",
+        "skin_name":	"eyepatch",
+        "skin_url":		"./shop/skins/eyepatch.png",
+        "skin_price":	"32000"
+    },
+	"skin_27": {
+		"skin_id": 		"27",
+        "skin_name":	"player-1",
+        "skin_url":		"./shop/skins/player-1.png",
+        "skin_price":	"32000"
+    },
+	"skin_28": {
+		"skin_id": 		"28",
+        "skin_name":	"player-2",
+        "skin_url":		"./shop/skins/player-2.png",
+        "skin_price":	"32000"
+    },
+	"skin_29": {
+		"skin_id": 		"29",
+        "skin_name":	"war-tank",
+        "skin_url":		"./shop/skins/war-tank.png",
+        "skin_price":	"42000"
+    },
+	"skin_30": {
+		"skin_id": 		"30",
+        "skin_name":	"war-hero",
+        "skin_url":		"./shop/skins/war-hero.png",
+        "skin_price":	"2000"
+    },
+	"skin_31": {
+		"skin_id": 		"31",
+        "skin_name":	"bart",
+        "skin_url":		"./shop/skins/bart.png",
+        "skin_price":	"32000"
+    },
+	"skin_32": {
+		"skin_id": 		"32",
+        "skin_name":	"zebra",
+        "skin_url":		"./shop/skins/zebra.png",
+        "skin_price":	"32000"
+    },
+	"skin_33": {
+		"skin_id": 		"33",
+        "skin_name":	"zombie-party",
+        "skin_url":		"./shop/skins/zombie-party.png",
+        "skin_price":	"32000"
+    }
+ }
