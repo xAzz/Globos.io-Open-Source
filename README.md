@@ -1,1 +1,3 @@
-## Here is my code that Lefela4 stole and made crappy "edits" :)
+## Globos.io Source
+
+Based off my work, made by Lefela4
